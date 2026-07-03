@@ -16,12 +16,12 @@ In this step, you will:
 > ```prompt
 > Let's update the React 19 presentation tier for this multi-tier application.
 >
-> - Update src/App.jsx and src/main.jsx
-> - Update src/components/Activities.jsx
-> - Update src/components/Leaderboard.jsx
-> - Update src/components/Teams.jsx
-> - Update src/components/Users.jsx
-> - Update src/components/Workouts.jsx
+> - Update src/App.tsx and src/main.tsx
+> - Update src/components/Activities.tsx
+> - Update src/components/Leaderboard.tsx
+> - Update src/components/Teams.tsx
+> - Update src/components/Users.tsx
+> - Update src/components/Workouts.tsx
 > - Use react-router-dom for navigation
 > - Use Vite environment variables via `import.meta.env`, for example `import.meta.env.VITE_CODESPACE_NAME`
 > - Document that `VITE_CODESPACE_NAME` must be defined (for example in `.env.local`)

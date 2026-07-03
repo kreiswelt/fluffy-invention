@@ -11,7 +11,7 @@ npm install --prefix octofit-tracker/frontend
 npm install bootstrap react-router-dom --prefix octofit-tracker/frontend
 ```
 
-Add Bootstrap CSS import at the top of `octofit-tracker/frontend/src/main.jsx`.
+Add Bootstrap CSS import at the top of `octofit-tracker/frontend/src/main.tsx`.
 
 ## Images
 
