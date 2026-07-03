@@ -16,12 +16,12 @@ In this step, you will:
 > ```prompt
 > Let's update the React 19 presentation tier for this multi-tier application.
 >
-> - Update src/App.jsx and src/main.jsx
-> - Update src/components/Activities.jsx
-> - Update src/components/Leaderboard.jsx
-> - Update src/components/Teams.jsx
-> - Update src/components/Users.jsx
-> - Update src/components/Workouts.jsx
+> - Update src/App.tsx and src/main.tsx
+> - Update src/components/Activities.tsx
+> - Update src/components/Leaderboard.tsx
+> - Update src/components/Teams.tsx
+> - Update src/components/Users.tsx
+> - Update src/components/Workouts.tsx
 > - Use react-router-dom for navigation
 > - Use Vite environment variables via `import.meta.env`, for example `import.meta.env.VITE_CODESPACE_NAME`
 > - Document that `VITE_CODESPACE_NAME` must be defined (for example in `.env.local`)
@@ -44,10 +44,10 @@ Run the React app with the Vite dev server (for example, `npm run dev`) and open
 
 Confirm these files include the expected endpoint paths:
 
-- `Activities.jsx` -> `/api/activities/`
-- `Leaderboard.jsx` -> `/api/leaderboard/`
-- `Teams.jsx` -> `/api/teams/`
-- `Users.jsx` -> `/api/users/`
-- `Workouts.jsx` -> `/api/workouts/`
+- `Activities.tsx` -> `/api/activities/`
+- `Leaderboard.tsx` -> `/api/leaderboard/`
+- `Teams.tsx` -> `/api/teams/`
+- `Users.tsx` -> `/api/users/`
+- `Workouts.tsx` -> `/api/workouts/`
 
 </details>
